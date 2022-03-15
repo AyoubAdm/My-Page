@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer type="module" ></script>
+    <title>Flappy-bird clone</title>
+    <style>
+        body{
+            text-align: center;
+            background: #5C258D;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #4389A2, #5C258D);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #4389A2, #5C258D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        h1{
+            position: absolute;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-direction:column;
+            inset:0;
+            z-index: 10;
+            color :brown;
+            text-shadow: 1px 1px 2px  black;
+        }
+
+
+        .hide {
+            display: none;
+        }
+        canvas{
+            padding: 0;
+            margin: auto;
+            display: block;
+            border:solid;
+        }
+        </style>
+</head>
+<body>
+    <h1>Flippy Bird<p >appuyez n'importe quelle touche pour jouer</p></h1>
+   <canvas width="500px" height="600px" class="hide">Canvas semble ne pas fonctionner :(</canvas> 
+   <h2 class="hide"></h2>
+   
+</body>
+</html>

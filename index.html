@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page perso</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1,minimum-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://kit.fontawesome.com/7d6bd9b2e6.js" crossorigin="anonymous"></script>
+    <script src="index.js" defer></script>
+    <script src="vitrine.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <a href="#acceuil" class ="texte-logo">ADMESSIEV</a>
+
+            <ul class = "navbar-list">
+                <li><a href="#acceuil">Présentation</a></li>
+                <li><a class = 'special' href="#cv">CV</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        <div class="burger">
+            <div class="ligne1"></div>
+            <div class="ligne2"></div>
+            <div class="ligne3"></div>
+        </div>
+        <div class='icons'>
+            <a href = '#' target=”_blank”>
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://github.com/AyoubAdm" target=”_blank”>
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ayoub-admessiev-167942229/"target=”_blank”>
+                <i class="fab fa-linkedin-in fa-2x"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+            <div id='acceuil'>
+                <h3>Présentation</h3>
+                <div class="presentation">
+                    <p class="presentation-text">Bienvenue sur mon site web, je suis Admessiev Ayoub, j'ai 21 ans et je suis actuellement étudiant en L3 informatique à Nice. <br />
+                        Sur mon site web vous trouverez mon CV et mes projets. Si vous souhaitez me contacter, utilisez la rubrique "Contact". <br />
+                        Dans la vie de tout les jours, j'aime bien programmer (évidemment), faire du sport et jouer aux jeux-vidéos. <br />
+                        Je suis quelqu'un de curieux, j'adore apprendre de nouvelles choses et developper ainsi mon savoir-faire.
+
+                    </p>    
+
+                </div>
+            </div> 
+            <div id = 'cv'>
+                <h3 class='texte'>curriculum vitae</h3>
+                <div class = 'monCV' style="background-image : url('images/CV.png')"><p>CV</p></div>
+                <p class='pdfpara'>Vous avez des difficultées à visualiser le CV ? Voici le pdf : <a href="CVpdf.pdf" target="_blank" class='pdfpara'>cv.pdf</a></p>
+            </div>
+        <div id="projets">
+            <h3>PROJETS</h3>
+            <div class = 'vitrine'>
+                <div class='fleche-gauche'>&#171;</div>
+                <div class = 'ctnr2' >  
+                    <div class = 'carre1'><a href = "../page-jeux/index.html" target=”_blank”><img src = 'images/site-jeu.png' alt = 'projet1' class= 'imgProj'/></a></div>
+                    <div class = 'carre2'><img src='images/cv.png' alt = 'projet2' class='imgProj'/></div>
+                    <div class = 'carre3'><a href = ""><img src = 'images/logo.png' alt = 'projet3' class='imgProj'/></a></div>
+                </div>
+                <div class= 'fleche-droite'>	
+                    &#187;
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" >
+            <h3>Contact</h3>
+            <div class="contact-ctnr">
+                <div class="contact-item">
+                    <i class="fa fa-light fa-envelope contact-icon"></i>
+                    <h4>Mail</h4>
+                    <p>Ayoubadm95@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin-in contact-icon"></i>
+                    <h4>Linkedin</h4>
+                    <p><a href="www.linkedin.com/in/ayoub-admessiev" target=”_blank”>Lien direct</a></p>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
+</body>
+</html>
