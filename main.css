@@ -12,6 +12,8 @@ body {
     background-color: #edf0f1;
 }
 
+
+
 .navbar  p, .navbar ul, .navbar li,.navbar a  {
     background-color: #24252A;
 }
@@ -186,6 +188,7 @@ header .fab:hover {
 
 #cv {
     display: flex;
+
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -364,7 +367,7 @@ header .fab:hover {
 
     display : flex;
     justify-content : space-between;
-    min-width: 30%;
+    width : 40%;
 }
 
 .contact-item {
@@ -372,6 +375,7 @@ header .fab:hover {
     flex-direction: column;
     justify-content : center;
     align-items: center;
+    margin : 0 auto;
 }
 
 .contact-item p {
@@ -459,9 +463,10 @@ header .fab:hover {
 
     }
 
-    #acceuil {
+    #acceuil, #cv {
         width: 92%;
     }
+
 
 
     .monCV {
@@ -482,5 +487,13 @@ header .fab:hover {
     .vitrine {
         min-width: 94%;
     }
+
+    .contact-ctnr {
+        padding-right: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 92%;
+    }
+    
 
 }
