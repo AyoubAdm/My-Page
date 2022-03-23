@@ -1,10 +1,3 @@
-if (document.readyState=='loading'){
-    document.addEventListener('DOMContentLoaded',ready);
-} else {
-    ready();
-}
-
-function ready () {
 
 const flecheGauche = document.querySelector('.fleche-gauche'); 
 const flecheDroite = document.querySelector('.fleche-droite');
@@ -12,7 +5,7 @@ const flecheDroite = document.querySelector('.fleche-droite');
 flecheDroite.addEventListener('click', tourneDroite);
 flecheGauche.addEventListener('click', tourneGauche);
 
-}
+
 
 
 

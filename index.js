@@ -1,16 +1,7 @@
-if (document.readyState=='loading'){
-    document.addEventListener('DOMContentLoaded',ready);
-} else {
-    ready();
-}
 
 
-function ready () {
-    navSlide();
-    openCV();
 
 
-}
 
 function navSlide () {
     const burger = document.querySelector('.burger');
@@ -49,7 +40,7 @@ function navSlide () {
             var nbre = (index/7 +0.7);
             el.style.animation = 'navbar-elements 0.5s ease forwards ' + nbre+ 's';
         };
-
+        
     });
 
 }
@@ -82,3 +73,6 @@ function openCV () {
     });
 }
 
+        
+navSlide();
+openCV();
